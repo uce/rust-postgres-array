@@ -10,8 +10,8 @@ repository = "https://github.com/sfackler/rust-postgres-array"
 [dependencies]
 bytes = "1.0"
 fallible-iterator = "0.2"
-postgres-types = { git = "https://github.com/MaterializeInc/rust-postgres" }
-postgres-protocol = { git = "https://github.com/MaterializeInc/rust-postgres" }
+postgres-types = { git = "https://github.com/uce/rust-postgres", branch = "6716-ssl_modes" }
+postgres-protocol = { git = "https://github.com/uce/rust-postgres", branch = "6716-ssl_modes" }
 
 [dev-dependencies]
-postgres = { git = "https://github.com/MaterializeInc/rust-postgres" }
+postgres = { git = "https://github.com/uce/rust-postgres", branch = "6716-ssl_modes" }
